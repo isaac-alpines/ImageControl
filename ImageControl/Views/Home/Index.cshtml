@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Start</h2>
+
+<div class="row">
+    <div class="col-sm-6">
+        <strong>Source</strong><br />
+        <img src="/Home/Process?p=Original" />
+    </div>
+
+    <div class="col-sm-6">
+        <strong>Target</strong><br />
+        <img src="/Home/Process?p=@ViewBag.cmd" />
+    </div>
+
+    <div class="col-sm-12">
+        <hr />
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/Home/Index?cmd=Original" class="btn btn-success">Original</a>
+            <a href="/Home/Index?cmd=RotateLeft" class="btn btn-success">RotateLeft</a>
+            <a href="/Home/Index?cmd=RotateRight" class="btn btn-success">RotateRight</a>
+            <a href="/Home/Index?cmd=FlipHorizontal" class="btn btn-success">FlipHorizontal</a>
+            <a href="/Home/Index?cmd=FlipVertical" class="btn btn-success">FlipVertical</a>
+            <a href="/Home/Index?cmd=Resize" class="btn btn-success">Resize</a>
+            <a href="/Home/Index?cmd=Crop" class="btn btn-success">Crop</a>
+            <a href="/Home/Index?cmd=AddTextWatermark" class="btn btn-success">AddTextWatermark</a>
+            <a href="/Home/Index?cmd=AddImageWatermark" class="btn btn-success">AddImageWatermark</a>
+        </div>
+    </div>
+</div>

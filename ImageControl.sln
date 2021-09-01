@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageControl", "ImageControl\ImageControl.csproj", "{A2F6B97F-FB12-4E4E-B6FF-7067EF69D1DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2F6B97F-FB12-4E4E-B6FF-7067EF69D1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F6B97F-FB12-4E4E-B6FF-7067EF69D1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F6B97F-FB12-4E4E-B6FF-7067EF69D1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F6B97F-FB12-4E4E-B6FF-7067EF69D1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D25FD1B-B445-46F3-89D2-0829FF147E07}
+	EndGlobalSection
+EndGlobal
